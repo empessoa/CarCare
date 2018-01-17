@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.empessoa8.carcare.fragments.viagem.Act_Viagem">
+
+    <br.com.empessoa8.carcare.helper.SlidingTabLayout
+        android:id="@+id/stl_tabs_viagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+    </br.com.empessoa8.carcare.helper.SlidingTabLayout>
+    <!--pagina onde exibe o fragmento-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_pagina_viagem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

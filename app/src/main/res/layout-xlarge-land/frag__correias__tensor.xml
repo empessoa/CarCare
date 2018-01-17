@@ -1,0 +1,268 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.empessoa8.carcare.fragments.correia_tensor.Frag_Correias_Tensor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            tools:ignore="ScrollViewSize">
+
+            <LinearLayout
+                android:id="@+id/campos_data_km_valor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:id="@+id/data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    tools:ignore="DuplicateIds">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/data_atual"
+                        android:textColor="@color/color_texto_titulo"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic" />
+
+                    <EditText
+                        android:id="@+id/edt_data_servico_Correia_tensor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="false"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:hint="@string/string_vazia"
+                        android:inputType="date"
+                        android:textColor="@color/color_texto"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/km_atual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/km_atual"
+                        android:textColor="@color/color_texto_titulo"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic" />
+
+                    <EditText
+                        android:id="@+id/edt_km_servico_Correia_tensor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textColor="@color/color_texto"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/valor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/valor_servico"
+                        android:textColor="@color/color_texto_titulo"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic" />
+
+                    <EditText
+                        android:id="@+id/edt_valor_servico_Correia_tensor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/color_texto"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cbx_OleoFreio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cbx_correia_dentada"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/cbx_correia_dentada"
+                        android:textColor="@color/color_texto"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic"
+                        tools:ignore="NestedWeights" />
+
+                    <CheckBox
+                        android:id="@+id/cbx_correia_poly"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/cbx_correia_poly"
+                        android:textColor="@color/color_texto"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cbx_tensor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/cbx_tensor"
+                        android:textColor="@color/color_texto"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic"
+                        tools:ignore="NestedWeights" />
+
+                    <CheckBox
+                        android:id="@+id/cbx_bomba_de_agua"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/cbx_bomba_de_agua"
+                        android:textColor="@color/color_texto"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/campo_km_correia_tensor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/text_correia_tensor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text="@string/km_proxima_revisao"
+                        android:textColor="@color/color_texto"
+                        android:textSize="@dimen/texto_x_large"
+                        android:textStyle="bold|italic" />
+
+                    <Spinner
+                        android:id="@+id/spn__correia_tensor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dataProxRe"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textDataP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/data_proxima_revisao"
+                    android:textColor="@color/color_texto_titulo"
+                    android:textSize="@dimen/texto_x_large"
+                    android:textStyle="bold|italic"
+                    tools:ignore="NestedWeights" />
+
+                <EditText
+                    android:id="@+id/edt_next_revisao_correia_tensor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:cursorVisible="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:hint="@string/string_vazia"
+                    android:inputType="date"
+                    android:textColor="@color/color_texto"
+                    android:textSize="@dimen/texto_x_large"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_salvar_servico_correia_tensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="115dp"
+                android:background="@color/color_botton"
+                android:gravity="center"
+                android:text="@string/btn_salvar"
+                android:textColor="@color/color_botton_Text"
+                android:textSize="@dimen/texto_x_large"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

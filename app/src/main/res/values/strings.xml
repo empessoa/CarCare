@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Car Care</string>
+    <string name="act_abastecer">Abastecimento</string>
+    <string name="act_viagem">Calcular Viagem</string>
+    <string name="act_oleo_filtro">Óleos e Filtros</string>
+    <string name="act_arrefecimento_freio">Arrefecimento e Freio</string>
+    <string name="act_correia_tensor">Correias e Tensor</string>
+    <string name="act_ignicao">Ignição</string>
+    <string name="act_email">Sugestões</string>
+    <string name="string_vazia"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Encerrar</string>
+
+    <!--Strings Titulos Act_Main e Act_Email-->
+    <string name="manutencao_preventiva"></string>
+    <string name="string_email">Email</string>
+    <string name="string_email_assunto">Assunto</string>
+    <string name="string_email_desenvolvedor">empessoa.app.developer@gmail.com</string>
+
+    <string name="titulo_abastecer">Abastecer</string>
+    <string name="titulo_calcular_combustivel">Calcular Combustivel</string>
+    <string name="titulo_servicos_realizados">Serviços Realizados:</string>
+
+
+    <!--Frag_Abastecer String radioButton-->
+    <string name="rb_gas_comum">Gasolina Comum</string>
+    <string name="rb_gas_adt">Gasolina Aditivada</string>
+    <string name="rb_alcool">Álcool</string>
+    <string name="rb_gas_natural">Gás Natural</string>
+    <string name="rb_diesel">Diesel</string>
+    <string name="txt_alcool">Álcool</string>
+    <string name="txt_gasolina">Gasolina</string>
+
+    <!--String botoes-->
+    <string name="btn_enviar">Enviar</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_calcular">calcular</string>
+    <string name="btn_limpar">Limpar</string>
+
+    <!--Strings list_abastecer-->
+    <string name="data_atual">Data</string>
+    <string name="km_atual">KM</string>
+    <string name="valor_litro">Valor do Litro</string>
+    <string name="valor_abastecido">Valor Abastecido</string>
+    <string name="litros_abastecidos">Litros Abastecidos</string>
+    <string name="combustivel_tipo">Tipo de Combustivel</string>
+
+    <!-- Frag Viagem -->
+    <string name="km_inicial">KM inicial</string>
+    <string name="km_final">KM Final</string>
+    <string name="autonomia">Autonomia</string>
+    <string name="combustivel">R$ Combustível</string>
+    <string name="pedagio">R$ Pedágio</string>
+    <string name="ocupantes">Ocupantes</string>
+
+    <!--Lists -->
+    <string name="km_proxima_revisao">Km Próxima Revisão</string>
+    <string name="data_proxima_revisao"> Data Próxima Revisão</string>
+    <string name="valor_servico">Valor Serviço</string>
+    <string name="sevicos_realizados">Valor Serviço</string>
+
+    <!-- String checkBox-->
+    <string name="cbx_ignicao">Velas da Ignição</string>
+    <string name="cbx_oleo_motor">Óleo do Motor</string>
+    <string name="cbx_oleo_direcao">Óleo da Direção</string>
+    <string name="cbx_filtro_oleo">Filtro do Óleo</string>
+    <string name="cbx_filtro_combustivel">Filtro do Combustível</string>
+    <string name="cbx_filtro_ar">Filtro do Ar</string>
+    <string name="cbx_filtro_ar_condicionado">Filtro do Ar Condicionado</string>
+    <string name="cbx_correia_dentada">Correia Dentada</string>
+    <string name="cbx_correia_poly">Correia Poly-v</string>
+    <string name="cbx_tensor">Tensor da Correia</string>
+    <string name="cbx_bomba_de_agua">Bomba de água</string>
+    <string name="cbx_agua_arrefecimento">Água do Arrefecimento</string>
+    <string name="cbx_oleo_do_freio">Óleo do freio</string>
+    <string name="cbx_pastilhas_freio">Pastilhas dos Freios</string>
+
+    <!-- Frag Oleo_Filtro -->
+    <string name="lubrificante_tipo">Tipo do Lubrificante</string>
+    <string name="lubrificante_km">Km Lubrificante</string>
+    <string name="menu_abastecer">Abastecer</string>
+    <string name="menu_contato">Contato</string>
+    <string name="menu_ignicao">Ignição</string>
+    <string name="menu_sugestoes">Sugestões</string>
+    <string name="menu_viagem">Viagem</string>
+    <string name="menu_oleo_e_filtro">Óleo e Filtro</string>
+    <string name="menu_correia_tensor">Correias e Tensor</string>
+    <string name="menu_arrefecimento_freio">Arrefecimento e Freios</string>
+
+    <!-- Menu -->
+    <string name="menu_carcare">Car Care</string>
+    <string name="menu_informar">Realize manutenção no veículo Periodicamente!!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_act__correias__tensor">Correias Tensor</string>
+
+
+
+
+</resources>

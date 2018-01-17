@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_abastecer_realizado_completo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="br.com.empessoa8.carcare.fragments.abastecer.Frag_Abastecimento">
+
+    <ListView
+        android:id="@+id/lst_abastecer_realizado_completa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="2dp"/>
+</LinearLayout>

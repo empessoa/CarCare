@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.empessoa8.carcare.fragments.oleos_filtros.Act_Oleo_Filtro">
+
+    <br.com.empessoa8.carcare.helper.SlidingTabLayout
+        android:id="@+id/stl_tabs_oleo_filtro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </br.com.empessoa8.carcare.helper.SlidingTabLayout>
+
+    <!--pagina onde exibe o fragmento-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_pagina_oleo_filtro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

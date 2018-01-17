@@ -1,0 +1,235 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.empessoa8.carcare.fragments.arrefecimento_freio.Frag_Arrefecimento_Freio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            tools:ignore="ScrollViewSize">
+
+            <LinearLayout
+                android:id="@+id/campos_data_km_valor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:id="@+id/data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    tools:ignore="DuplicateIds">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/data_atual"
+                        android:textColor="@color/color_texto_titulo"
+                        android:textStyle="bold|italic" />
+
+                    <EditText
+                        android:id="@+id/edt_data_servico__arrefecimento_freio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="false"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:hint="@string/string_vazia"
+                        android:inputType="date"
+                        android:textColor="@color/color_texto"
+                        android:textSize="14sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/km_atual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/km_atual"
+                        android:textColor="@color/color_texto_titulo"
+                        android:textStyle="bold|italic" />
+
+                    <EditText
+                        android:id="@+id/edt_km_servico__arrefecimento_freio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textColor="@color/color_texto"
+                        android:textSize="14sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/valor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/valor_servico"
+                        android:textColor="@color/color_texto_titulo"
+                        android:textStyle="bold|italic" />
+
+                    <EditText
+                        android:id="@+id/edt_valor_servico__arrefecimento_freio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/color_texto"
+                        android:textSize="14sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cbx_OleoFreio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/cbx_oleo_freio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/cbx_oleo_do_freio"
+                    android:textColor="@color/color_texto"
+                    android:textStyle="bold|italic" />
+
+                <CheckBox
+                    android:id="@+id/cbx_pastihas_freio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/cbx_pastilhas_freio"
+                    android:textColor="@color/color_texto"
+                    android:textStyle="bold|italic" />
+
+                <CheckBox
+                    android:id="@+id/cbx_agua_arrefecimento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/cbx_agua_arrefecimento"
+                    android:textColor="@color/color_texto"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:id="@+id/campo_km_arrefecimento_freio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight=".7"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/text_correia_tensor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text="@string/km_proxima_revisao"
+                        android:textColor="@color/color_texto"
+                        android:textStyle="bold|italic" />
+
+                    <Spinner
+                        android:id="@+id/spn_arrefecimento_freio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dataProxRe"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textDataP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/data_proxima_revisao"
+                    android:textColor="@color/color_texto_titulo"
+                    android:textStyle="bold|italic"
+                    tools:ignore="NestedWeights" />
+
+                <EditText
+                    android:id="@+id/edt_next_revisao__arrefecimento_freio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:cursorVisible="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:hint="@string/string_vazia"
+                    android:inputType="date"
+                    android:textColor="@color/color_texto"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_salvar_servico_arrefecimento_freio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125dp"
+                android:background="@color/color_botton"
+                android:gravity="center"
+                android:text="@string/btn_salvar"
+                android:textColor="@color/color_botton_Text"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

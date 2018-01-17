@@ -1,0 +1,2 @@
+17/01/2018
+branch master ==> Realizado commit github da versao final até o momento e publicado na google play.

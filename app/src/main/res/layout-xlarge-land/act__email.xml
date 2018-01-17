@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="br.com.empessoa8.carcare.email.Act_Email">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:inputType="textEmailAddress"
+                android:text="@string/string_email_desenvolvedor"
+                android:textColor="@color/color_texto"
+                android:textSize="50sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/edit_assunto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/string_email_assunto"
+                android:inputType="textPersonName"
+                android:textColor="@color/color_texto"
+                android:textSize="50sp"
+                android:textStyle="bold|italic"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/edit_message"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="Messagem"
+                android:inputType="textMultiLine"
+                android:textColor="@color/color_texto"
+                android:textSize="50sp"
+                android:textStyle="bold|italic"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="58dp"
+                android:background="@color/color_botton"
+                android:text="@string/btn_enviar"
+                android:textColor="@color/color_botton_Text"
+                android:textSize="50sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

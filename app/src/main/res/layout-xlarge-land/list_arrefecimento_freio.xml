@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/data"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/data_atual"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/km"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/km_atual"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView25"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/data_proxima_revisao"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/valor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/valor_servico"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/km_pro_revisao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/km_proxima_revisao"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/texto_x_large" />
+
+        <TextView
+            android:id="@+id/text_servcos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/titulo_servicos_realizados"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/data_arrefecimento_freio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic"
+            tools:ignore="NestedWeights,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/km_atual_arrefecimento_freio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/data_proxima_revisao_arrefecimento_freio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto_advertencia"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/valor_servico_arrefecimento_freio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/km_proxima_revisao_arrefecimento_freio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlHardcoded" />
+
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/texto_x_large" />
+
+        <TextView
+            android:id="@+id/servicos_realizados_arrefecimento_freio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="@dimen/texto_x_large"
+            android:textStyle="bold|italic"
+            tools:ignore="InefficientWeight,NestedWeights" />
+
+    </LinearLayout>
+
+</LinearLayout>

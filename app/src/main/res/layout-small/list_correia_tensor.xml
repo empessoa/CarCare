@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:ignore="DisableBaselineAlignment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/data_atual"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/km"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/km_atual"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/data_proxima_revisao"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/data_proxima_revisao"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/valor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/valor_servico"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/km_pro_revisao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/km_proxima_revisao"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_vazio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/text_servcos_realizados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/titulo_servicos_realizados"
+            android:textColor="@color/color_texto_titulo"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/data_atual_correia_tensor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="NestedWeights,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/km_servico_correia_tensor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/data_proxima_revisao_correia_tensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto_advertencia"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/valor_servico_correia_tensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/km_proxima_revisao_correia_tensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlHardcoded" />
+
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/servicos_realizados_correia_tensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/string_vazia"
+            android:textColor="@color/color_texto"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="InefficientWeight,NestedWeights" />
+
+    </LinearLayout>
+
+</LinearLayout>

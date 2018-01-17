@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.empessoa8.carcare.Act_Main">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_act__main" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_oleo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="@dimen/fab_oleo_margin"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_menu_manage"
+        tools:ignore="RtlHardcoded" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_viagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="@dimen/fab_viagem_margin"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/ic_viagem_2"
+        tools:ignore="RtlHardcoded" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_abastecer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="@dimen/fab_abastecer_margin"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/ic_abastecer"
+        tools:ignore="RtlHardcoded" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="@dimen/fab_main_margin"
+        android:visibility="visible"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:ignore="RtlHardcoded" />
+
+</android.support.design.widget.CoordinatorLayout>

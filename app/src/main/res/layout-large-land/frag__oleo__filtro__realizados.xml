@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="br.com.empessoa8.carcare.fragments.oleos_filtros.Frag_Oleo_Filtro_Realizados">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/lst_servico_oleo_freio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="2dp"
+        android:padding="10dp" />
+
+</FrameLayout>

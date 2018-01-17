@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_abastecer"
+            android:icon="@mipmap/ic_abastecer"
+            android:title="@string/menu_abastecer" />
+        <item
+            android:id="@+id/nav_viagem"
+            android:icon="@mipmap/ic_viagem_2"
+            android:title="@string/menu_viagem" />
+
+        <item
+            android:id="@+id/nav_arrefecimento_freio"
+            android:icon="@mipmap/ic_freio"
+            android:title="@string/menu_arrefecimento_freio" />
+        <item
+            android:id="@+id/nav_correia_tensor"
+            android:icon="@mipmap/ic_correias"
+            android:title="@string/menu_correia_tensor" />
+        <item
+            android:id="@+id/nav_ignicao"
+            android:icon="@mipmap/ic_ignicao"
+            android:title="@string/menu_ignicao" />
+        <item
+            android:id="@+id/nav_oleo_filtro"
+            android:icon="@mipmap/ic_troca_oleo"
+            android:title="@string/menu_oleo_e_filtro" />
+
+
+    </group>
+
+    <item android:title="@string/menu_contato">
+        <menu>
+            <item
+                android:id="@+id/nav_send_email"
+                android:icon="@mipmap/ic_contato"
+                android:title="@string/menu_sugestoes" />
+        </menu>
+    </item>
+
+</menu>
